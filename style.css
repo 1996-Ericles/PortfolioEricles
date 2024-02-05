@@ -371,6 +371,7 @@ section{
 
 .skills-titulo{
   margin-top: 15%;
+  margin-bottom: 5%;
   text-align: center;
   font-size: 18px;
   color: #f0eeee;
@@ -379,9 +380,10 @@ section{
 
 .skills-logo{
   margin-top: 20%;
+  max-width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 2px;
   margin: 0.06rem; 
   position: relative;
@@ -389,52 +391,20 @@ section{
   transition: all .4s ease;
 }
 
-.html-logo{
+.logos{
+  max-width: 100%;
   margin-top: 5%;
   border-radius: 20%;
+  display: flex;
+  justify-content: space-around;
 }
 
-.css-logo{
-  margin-top: 5%;
-  border-radius: 20%;
-}
-
-.js-logo{
-  margin-top: 5%;
-  border-radius: 20%;
-}
-
-.bootstrap-logo{
-  margin-top: 5%;
-  border-radius: 20%;
-}
-
-.html-logo:hover{
+.logos:hover{
   transition: all .4s ease;
   color: #d3c7c7;
   box-shadow: 0 40px 40px rgb(75, 191, 195);
 }
-.css-logo:hover{
-  margin-top: 5%;
-  border-radius: 20%;
-  transition: all .4s ease;
-  color: #d3c7c7;
-  box-shadow: 0 40px 40px rgb(75, 191, 195);
-}
-.js-logo:hover{
-  margin-top: 5%;
-  border-radius: 20%;
-  transition: all .4s ease;
-  color: #d3c7c7;
-  box-shadow: 0 40px 40px rgb(75, 191, 195);
-}
-.bootstrap-logo:hover{
-  margin-top: 5%;
-  border-radius: 20%;
-  transition: all .4s ease;
-  color: #d3c7c7;
-  box-shadow: 0 40px 40px rgb(75, 191, 195);
-}
+
 
 
 .projetos-titulo {
